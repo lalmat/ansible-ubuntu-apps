@@ -38,3 +38,8 @@
       apt:
         name: brasero
         state: latest
+
+    - name: CURA - 3D Printer Slicer
+      snap:
+        name: cura-slicer
+        classic: yes

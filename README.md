@@ -10,7 +10,7 @@ This playbook install my prefered desktop apps available under Ubuntu.
 - [OBS Studio](https://obsproject.com/fr/download) - Video Capture & Streaming platform
 - [Flameshot](https://flameshot.org/) - Not the best, but a working & flexible screenshot tool
 - [Brasero](https://doc.ubuntu-fr.org/brasero) - Simple CD/DVD Burner
-
+- [Cura](https://ultimaker.com/fr/software/ultimaker-cura) - A 3D printer slicer
 ## Requirements
 
 You need to have theses packages already installed (use apt to install them) :
