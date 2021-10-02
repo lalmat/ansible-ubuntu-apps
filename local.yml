@@ -1,0 +1,40 @@
+---
+- hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+    - name: JOPLIN - Notes
+      snap:
+        name: joplin-desktop
+        classic: yes
+
+    - name: SPOTIFY - Music Player
+      snap:
+        name: spotify
+        classic: yes
+
+    - name: BITWARDEN - Password Vault
+      snap:
+        name: bitwarden
+        classic: yes
+
+    - name: VLC - Video Player
+      snap:
+        name: vlc
+        classic: yes
+
+    - name: OBS STUDIO - Video capture and stream
+      snap:
+        name: obs-studio
+        classic: yes
+
+    - name: FLAMESHOT - Screenshot tool
+      apt:
+        name: flameshot
+        state: latest
+
+    - name: BRASERO - CD/DVD burning tool
+      apt:
+        name: brasero
+        state: latest
